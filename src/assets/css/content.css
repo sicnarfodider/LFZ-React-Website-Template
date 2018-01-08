@@ -1,0 +1,57 @@
+.content-title{
+  text-transform: capitalize;
+  margin: 20px;
+  border: none;
+  color: aliceblue;
+}
+
+.custom-control{
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.card, .card-title{
+  border-radius: .5rem;
+}
+.card-block ol{
+  clear: both;
+}
+
+
+.link-holder li{
+  list-style-type: none;
+}
+.resource-links{
+  text-decoration: none;
+  display: inline-block;
+  color: #0051eb;
+}
+
+.resource-links:visited{
+  color: #263272;
+}
+
+.redux-header{
+  background-color: #8b44b0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hide{
+  display: none;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: #02d81e;
+}
+.custom-control-input:focus~.custom-control-indicator {
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #02d81e;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #02d81e;
+}
+
+.complete{
+  background-color: lightgray;
+}
