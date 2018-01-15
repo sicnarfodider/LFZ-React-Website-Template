@@ -34,7 +34,7 @@ body {
   padding: 5px;
   border: 1px solid #fbfbfb80;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #143f56d6;
 }
 
 .nav-type>li:hover,.nav-type>li:active{
